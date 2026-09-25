@@ -119,8 +119,10 @@ Zhu, J., Wang, Y., Huang, Y. et al. Data-driven capacity estimation of commercia
 }
 ```
 
-**补充说明：**
+## 数据集下载
 
-- PHM2012 数据集引用的是 PRONOSTIA 实验平台的介绍论文，被引近 2000 次，是该数据集最权威的引用来源。
-- C-MAPSS 数据集引用的是 NASA 2008 年的原始数据生成论文，被引超 2900 次，是该领域的经典基准文献。
-- TJU 数据集引用的是同济大学魏学哲/戴海峰团队 2022 年发表在 Nature Communications 上的论文，被引超 900 次，数据集托管于 Zenodo。
+| 数据集 | 下载链接 | 来源 |
+| --- | --- | --- |
+| PHM2012 Bearings（FEMTO-ST） | [下载 ZIP](https://phm-datasets.s3.amazonaws.com/NASA/10.+FEMTO+Bearing.zip) | [NASA PCoE 数据仓库（FEMTO Bearing）](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) |
+| C-MAPSS Engines | [下载 ZIP](https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip) | [NASA PCoE 数据仓库（Turbofan Engine Degradation Simulation）](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) |
+| TJU Batteries | [Zenodo 下载页面](https://zenodo.org/records/6405084) | 论文作者发布的数据；在页面的 Files 中选择所需 ZIP 文件 |
