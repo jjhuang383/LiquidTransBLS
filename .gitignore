@@ -1,0 +1,17 @@
+# Source-only allowlist. Data, configurations with private IDs, checkpoints,
+# environments, logs and generated predictions remain local by default.
+*
+!.gitignore
+!LICENSE
+!README.md
+!requirements.txt
+!main.py
+!src/
+!src/__init__.py
+!src/model.py
+!src/feature_extractor.py
+!src/layers.py
+!src/tcbls.py
+!src/replay.py
+!src/preprocessing.py
+!src/data_loader.py
